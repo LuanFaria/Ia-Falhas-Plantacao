@@ -8,9 +8,7 @@ function [histogram] = BICFeatures(img, colors)
    %              be produced as being the 'histogram' output.
    %              
    % Example:  [histogram] = BICFeatures(image, 8)
-   %           
-   % Author: Luiz F. S. Coletta (luiz.fersc@gmail.com) - 30/01/18
-   % Update: Luiz F. S. Coletta - 07/02/18
+   %
    % ************************************************************************* 
    
    [quant_img]= rgb2ind(img, colors, 'dither');
